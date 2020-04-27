@@ -68,7 +68,7 @@ def add_characters
    # Code your solution here:
 
 def add_characters(hash)
-  
+  hash[:montague][:additional_characters] = [{:name => "Prince Escalus"}, {:name => "Apothecary"}]
 end
 
 
