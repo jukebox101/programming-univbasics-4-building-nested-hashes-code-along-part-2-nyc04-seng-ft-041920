@@ -22,7 +22,14 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
-
+def update_status(hash)
+  if hash[:montague][:hero][:status] == "alive"
+     hash[:montague][:hero][:status] = "dead"
+  end
+  
+  if hash[:capulet][:heroine][:status] == "alive"
+    hash[:capulet][:heroine][:status] = "dead"
+end
 
 
 
@@ -60,7 +67,9 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-
+def add_characters(hash)
+  
+end
 
 
 
